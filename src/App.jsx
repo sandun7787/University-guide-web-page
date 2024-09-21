@@ -3,6 +3,7 @@ import Navbar from './Components/Navbar/Navbar'
 import Hero from './Components/Hero/Hero'
 import New from './Components/New/New'
 import Title from './Components/Title/Title'
+import About from './Components/About/About'
 export default function App() {
   return (
     <div>
@@ -11,6 +12,7 @@ export default function App() {
       <div className='container'>
         <Title subTitle='Our PROGRAM' title='What We Offer'/>
       <New/>
+      <About/>
       </div>
      
       

@@ -34,9 +34,16 @@
     flex-direction:column;
     color:#fff;
     cursor:pointer;
+    opacity: 0;
+    transition: 0.4s;
 }
 
 .caption img{
     width: 60px;
     margin-bottom: 10px;
+}
+
+.program:hover .caption{
+    opacity: 1;
+    padding-top: 0;
 }

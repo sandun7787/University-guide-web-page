@@ -4,15 +4,15 @@ import logo from '../../assets/logo.png'
 
 export default function Navbar() {
   return (
-   <nav>
-    <img src={logo} alt=""></img>
+   <nav className='container'>
+    <img src={logo} alt="" className='logo'/>
     <ul>
         <li>Home</li>
         <li>Program</li>
         <li>About Us</li>
         <li>Campus</li>
         <li>Testimonials</li>
-        <li>Contact Us</li>
+        <li><button className='btn'>Contact Us</button></li>
     </ul>
    </nav>
   )

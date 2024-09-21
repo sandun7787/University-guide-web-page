@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
-
-
 *{
-  margin :0;
+  margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Outfit", sans-serif;
@@ -14,7 +12,27 @@ body{
 
 a{
   text-decoration: none;
-  color:inherit;
-  line-height:1;
-  cursor:pointer;
+  color: inherit;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.container{
+  max-width: 1200px; /* Set a maximum width */
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px; /* Add some padding for smaller screens */
+  padding-right: 15px;
+  width: 100%; /* Ensure it uses 100% of available width */
+}
+
+.btn{
+  background: #FFF;
+  color: #212121;
+  padding: 14px 25px;
+  font-size:16px;
+  border-radius: 30px;
+  cursor: pointer;
+  border: 0;
+  outline: 0;
 }

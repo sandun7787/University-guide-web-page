@@ -1,0 +1,20 @@
+.campus {
+    margin: 80px auto;
+    width: 90%; /* Changed to 90% for better layout */
+    text-align: center;
+}
+
+.gallery {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    flex-wrap: wrap; /* Allows images to wrap if the screen is small */
+    gap: 20px; /* Adds spacing between images */
+}
+
+.gallery img {
+    width: 20%; /* Adjusted to 30% for three images in a row */
+    border-radius: 10px;
+    object-fit: cover; /* Ensures the images fit without distortion */
+}

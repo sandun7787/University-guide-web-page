@@ -4,6 +4,7 @@ import msg_icon from '../../assets/msg-icon.png'
 import mail_icon from '../../assets/mail-icon.png'
 import phone_icon from '../../assets/phone-icon.png'
 import location_icon from '../../assets/location-icon.png'
+import white_arrow from '../../assets/white-arrow.png'
 
 const Contact = () => {
   return (
@@ -32,8 +33,9 @@ const Contact = () => {
                     <required/>
                     <label>Write ypur message her</label>
                     <textarea name="message" rows='6' placeholder='Enter your Message' required></textarea>
-                    <button type='submite' className='btn dark btn'></button>
+                    <button type='submite' className='btn dark-btn'>Submite Now <img src={white_arrow} alt="" /></button>
                   </form>
+                  <span>Sending</span>
                 </div>
         </div>
       

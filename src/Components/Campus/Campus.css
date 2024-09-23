@@ -18,3 +18,15 @@
     border-radius: 10px;
     object-fit: cover; /* Ensures the images fit without distortion */
 }
+
+@media(max-width:850px){
+    .gallery{
+        flex-wrap: wrap;
+
+    }
+
+    .gallery img{
+        width:48%;
+        margin-bottom: 25px;
+    }
+}
